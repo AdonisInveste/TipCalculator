@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TipTap</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css"> -->
+<!--===============================================================================================-->	
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css"> -->
+<!--===============================================================================================-->
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css"> -->
+<!--===============================================================================================-->
+	<!-- <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"> -->
+<!--===============================================================================================-->
+</head>
+<body>
+	
+<div class="container">
+    <form action="" class="form">
+
+        <br>
+        <br>
+
+            <div class="form-group">
+                <label for="">How much was your bill?</label>
+                <input id="input_" type="text" class="form-control" placeholder="Enter amount" value="">
+            </div>
+
+
+    <!-- <div class="form-group">
+            <label for="">How many persons are sharing the bill?</label>
+            <input type="number" class="form-control" placeholder="Enter number of persons" value="">
+            <br><br>
+   </div> -->
+
+   <section id="isSection">
+    <p>Your total cost is :</p> 
+   </section>
+    <br>
+    
+    <!-- ======================================== -->
+    <div class="form-group">
+            <label for="">Choose Tip</label>
+            <select name="" id="IsSelection" class="form-control"> 
+                <br> 
+                <br>
+                <option value="0"></option>
+                <option value="1">15</option>
+                <option value="2">18</option>
+                <option value="3">20</option>
+            </select>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- ======================================== -->
+    <!-- <div class="form-group" > 
+            <label for="">How was the service?</label>
+
+            <select name="" id=""  class="form-control"> 
+                <option value="">Good</option>
+                <option value="">As Expected</option>
+                <option value="">Substandard</option>
+                <option value="">Horrible</option>
+            </select>
+    </div> -->
+
+    <div class="form-group">
+    <button type="submit" class="btn btn-large btn-primary" onclick="calcTip(); return false;" >Calculate</button>
+    </div>
+
+        </div>
+
+    </form>
+
+</body>
+
+<script src="TipCalc.js"></script>
+
+</html>
